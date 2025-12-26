@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="I3NET - Sua provedora de internet de alta velocidade. Planos de 400Mb a 700Mb com Wi-Fi 6 e os melhores preços da região.">
+    <title>I3NET | Internet de Alta Velocidade</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header / Menu Superior -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/logo2.png" alt="I3NET Logo" class="logo-img" id="logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Início</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experiência</a></li>
+                    <li class="nav__item"><a href="#plans" class="nav__link">Planos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner Carousel -->
+    <section class="carousel" id="home">
+        <div class="carousel__container">
+            <div class="carousel__slide active">
+                <img src="assets/li3n-4.jpg" alt="I3NET Conexão" class="carousel__image">
+                <div class="carousel__overlay">
+                    <div class="carousel__content">
+                        <h1 class="carousel__title">Conecte-se ao <span class="text-gradient">Futuro</span></h1>
+                        <p class="carousel__description">Internet de alta velocidade para transformar sua experiência
+                            digital</p>
+                        <a href="#plans" class="btn btn--primary">Ver Planos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel__slide">
+                <img src="assets/urso.jpg" alt="I3NET Velocidade" class="carousel__image">
+                <div class="carousel__overlay">
+                    <div class="carousel__content">
+                        <h1 class="carousel__title">Velocidade <span class="text-gradient">Máxima</span></h1>
+                        <p class="carousel__description">Até 700Mb de velocidade com a melhor estabilidade da região</p>
+                        <a href="#plans" class="btn btn--primary">Contrate Agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel__controls">
+            <button class="carousel__btn carousel__btn--prev" id="prevBtn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+            <div class="carousel__indicators" id="indicators"></div>
+            <button class="carousel__btn carousel__btn--next" id="nextBtn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços ao Cliente -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Área do Cliente</span>
+                <h2 class="section__title">Serviços <span class="text-gradient">Online</span></h2>
+                <p class="section__description">Resolva tudo de forma rápida e prática, sem sair de casa</p>
+            </div>
+            <div class="services__grid">
+                <a href="https://icx.i3neti.com.br/central_assinante_web/" target="_blank" class="service-card">
+                    <div class="service-card__icon">
+                        <svg class="service-icon" viewBox="0 0 64 64">
+                            <rect class="doc-body" x="12" y="8" width="40" height="48" rx="4" fill="none"
+                                stroke="currentColor" stroke-width="2" />
+                            <line class="doc-line doc-line-1" x1="20" y1="20" x2="44" y2="20" stroke="currentColor"
+                                stroke-width="2" />
+                            <line class="doc-line doc-line-2" x1="20" y1="28" x2="44" y2="28" stroke="currentColor"
+                                stroke-width="2" />
+                            <line class="doc-line doc-line-3" x1="20" y1="36" x2="36" y2="36" stroke="currentColor"
+                                stroke-width="2" />
+                            <path class="doc-corner" d="M52 8 L52 20 L40 8" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                            <circle class="doc-badge" cx="48" cy="48" r="10" fill="#00C853" />
+                            <text x="48" y="52" text-anchor="middle" fill="white" font-size="12"
+                                font-weight="bold">2</text>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">2ª Via de Boleto</h3>
+                    <p class="service-card__description">Imprima seu boleto rapidamente</p>
+                    <span class="service-card__arrow">→</span>
+                </a>
+
+                <a href="https://icx.i3neti.com.br/central_assinante_web/" target="_blank" class="service-card">
+                    <div class="service-card__icon">
+                        <svg class="service-icon user-icon" viewBox="0 0 64 64">
+                            <circle class="user-head" cx="32" cy="20" r="10" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                            <path class="user-body" d="M16 52 Q16 36 32 36 Q48 36 48 52" fill="none"
+                                stroke="currentColor" stroke-width="2" />
+                            <g class="sync-arrows">
+                                <path d="M50 24 L56 24 L56 18" fill="none" stroke="#00C853" stroke-width="2" />
+                                <path d="M56 24 Q56 12 44 12" fill="none" stroke="#00C853" stroke-width="2" />
+                                <path d="M44 8 L44 12 L48 12" fill="none" stroke="#00C853" stroke-width="2" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Atualizar Cadastro</h3>
+                    <p class="service-card__description">Mantenha seus dados atualizados</p>
+                    <span class="service-card__arrow">→</span>
+                </a>
+
+                <a href="https://icx.i3neti.com.br/central_assinante_web/" target="_blank" class="service-card">
+                    <div class="service-card__icon">
+                        <svg class="service-icon headset-icon" viewBox="0 0 64 64">
+                            <path class="headset-band" d="M12 32 Q12 12 32 12 Q52 12 52 32" fill="none"
+                                stroke="currentColor" stroke-width="2" />
+                            <rect class="headset-left" x="8" y="28" width="8" height="16" rx="4" fill="none"
+                                stroke="currentColor" stroke-width="2" />
+                            <rect class="headset-right" x="48" y="28" width="8" height="16" rx="4" fill="none"
+                                stroke="currentColor" stroke-width="2" />
+                            <path class="headset-mic" d="M52 44 Q52 52 44 52 L40 52" fill="none" stroke="currentColor"
+                                stroke-width="2" />
+                            <circle class="pulse-ring" cx="32" cy="36" r="8" fill="none" stroke="#00C853"
+                                stroke-width="1" opacity="0.6" />
+                            <circle class="pulse-ring pulse-ring-2" cx="32" cy="36" r="12" fill="none" stroke="#00C853"
+                                stroke-width="1" opacity="0.4" />
+                            <circle class="pulse-ring pulse-ring-3" cx="32" cy="36" r="16" fill="none" stroke="#00C853"
+                                stroke-width="1" opacity="0.2" />
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Suporte</h3>
+                    <p class="service-card__description">Atendimento técnico especializado</p>
+                    <span class="service-card__arrow">→</span>
+                </a>
+
+                <a href="https://www.minhaconexao.com.br/?server_id=004987" target="_blank" class="service-card">
+                    <div class="service-card__icon">
+                        <svg class="service-icon speedometer-icon" viewBox="0 0 64 64">
+                            <path class="speed-arc" d="M12 44 A24 24 0 0 1 52 44" fill="none" stroke="currentColor"
+                                stroke-width="3" />
+                            <line class="speed-needle" x1="32" y1="44" x2="32" y2="24" stroke="#00C853" stroke-width="2"
+                                stroke-linecap="round" />
+                            <circle class="speed-center" cx="32" cy="44" r="4" fill="currentColor" />
+                            <g class="speed-marks">
+                                <line x1="16" y1="36" x2="20" y2="38" stroke="currentColor" stroke-width="2" />
+                                <line x1="24" y1="26" x2="26" y2="30" stroke="currentColor" stroke-width="2" />
+                                <line x1="32" y1="22" x2="32" y2="26" stroke="currentColor" stroke-width="2" />
+                                <line x1="40" y1="26" x2="38" y2="30" stroke="currentColor" stroke-width="2" />
+                                <line x1="48" y1="36" x2="44" y2="38" stroke="currentColor" stroke-width="2" />
+                            </g>
+                            <text x="32" y="56" text-anchor="middle" fill="currentColor" font-size="8"
+                                font-weight="bold">Mb/s</text>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Teste de Velocidade</h3>
+                    <p class="service-card__description">Meça sua conexão agora</p>
+                    <span class="service-card__arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seções Snap Scroll - Experiência I3NET -->
+    <!-- Seção Jogos -->
+    <section class="experience-section gaming-section" id="experience">
+        <div class="experience__particles" id="gaming-particles"></div>
+        <div class="experience__content">
+            <div class="experience__text">
+                <span class="experience__badge gaming-badge">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
+                    </svg>
+                    GAMING
+                </span>
+                <h2 class="experience__title">Domine Cada <span class="text-neon">Partida</span></h2>
+                <p class="experience__description">
+                    Latência ultra-baixa e conexão estável para você nunca perder uma jogada.
+                    Streaming em 4K enquanto joga? Com I3NET, você pode.
+                </p>
+                <ul class="experience__features">
+                    <li><span class="feature-icon">⚡</span> Ping mínimo para jogos online</li>
+                    <li><span class="feature-icon">🎮</span> Zero lag em partidas competitivas</li>
+                    <li><span class="feature-icon">📺</span> Stream + Game simultâneo</li>
+                </ul>
+            </div>
+            <div class="experience__visual gaming-visual">
+                <div class="gaming-controller">
+                    <svg viewBox="0 0 200 120" class="controller-svg">
+                        <defs>
+                            <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#00ff88" />
+                                <stop offset="100%" style="stop-color:#00C853" />
+                            </linearGradient>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="3" result="coloredBlur" />
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <path class="controller-body"
+                            d="M40 30 Q20 30 15 50 L5 90 Q0 100 10 105 L30 100 Q40 95 50 80 L70 70 L130 70 L150 80 Q160 95 170 100 L190 105 Q200 100 195 90 L185 50 Q180 30 160 30 Z"
+                            fill="#1a1a2e" stroke="url(#neonGrad)" stroke-width="2" filter="url(#glow)" />
+                        <circle class="dpad-center" cx="55" cy="55" r="15" fill="#0d0d1a" stroke="url(#neonGrad)"
+                            stroke-width="1" />
+                        <rect class="dpad-h" x="40" y="52" width="30" height="6" rx="2" fill="url(#neonGrad)" />
+                        <rect class="dpad-v" x="52" y="40" width="6" height="30" rx="2" fill="url(#neonGrad)" />
+                        <circle class="btn-a" cx="145" cy="50" r="8" fill="#00C853" filter="url(#glow)" />
+                        <circle class="btn-b" cx="160" cy="40" r="8" fill="#00ff88" filter="url(#glow)" />
+                        <circle class="btn-x" cx="130" cy="40" r="8" fill="#00C853" filter="url(#glow)" />
+                        <circle class="btn-y" cx="145" cy="30" r="8" fill="#00ff88" filter="url(#glow)" />
+                    </svg>
+                </div>
+                <div class="floating-elements">
+                    <div class="float-item coin">🪙</div>
+                    <div class="float-item star">⭐</div>
+                    <div class="float-item heart">❤️</div>
+                    <div class="float-item diamond">💎</div>
+                    <div class="float-item bolt">⚡</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Role para continuar</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Seção Trabalho -->
+    <section class="experience-section work-section" id="experience-work">
+        <div class="experience__grid-bg"></div>
+        <div class="experience__content">
+            <div class="experience__visual work-visual">
+                <div class="laptop-container">
+                    <div class="laptop">
+                        <div class="laptop-screen">
+                            <div class="screen-content">
+                                <div class="code-line"></div>
+                                <div class="code-line short"></div>
+                                <div class="code-line"></div>
+                                <div class="code-line medium"></div>
+                                <div class="code-line short"></div>
+                                <div class="cursor"></div>
+                            </div>
+                        </div>
+                        <div class="laptop-base"></div>
+                    </div>
+                    <div class="orbit-icons">
+                        <div class="orbit-icon video-icon">📹</div>
+                        <div class="orbit-icon cloud-icon">☁️</div>
+                        <div class="orbit-icon chart-icon">📊</div>
+                        <div class="orbit-icon mail-icon">📧</div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience__text">
+                <span class="experience__badge work-badge">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" />
+                    </svg>
+                    TRABALHO
+                </span>
+                <h2 class="experience__title">Produtividade <span class="text-blue">Sem Limites</span></h2>
+                <p class="experience__description">
+                    Home office, videoconferências em HD e upload de arquivos grandes.
+                    Sua internet acompanha seu ritmo de trabalho.
+                </p>
+                <ul class="experience__features">
+                    <li><span class="feature-icon">🎥</span> Videochamadas cristalinas</li>
+                    <li><span class="feature-icon">☁️</span> Upload ultrarrápido</li>
+                    <li><span class="feature-icon">🔒</span> Conexão segura e estável</li>
+                </ul>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Role para continuar</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Seção Empresas -->
+    <section class="experience-section business-section" id="experience-business">
+        <div class="experience__network-bg" id="network-bg"></div>
+        <div class="experience__content">
+            <div class="experience__text">
+                <span class="experience__badge business-badge">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z" />
+                    </svg>
+                    EMPRESAS
+                </span>
+                <h2 class="experience__title">Infraestrutura <span class="text-purple">Corporativa</span></h2>
+                <p class="experience__description">
+                    Soluções personalizadas para empresas de todos os portes.
+                    IP fixo, links dedicados e suporte prioritário 24/7.
+                </p>
+                <ul class="experience__features">
+                    <li><span class="feature-icon">🏢</span> Planos empresariais sob medida</li>
+                    <li><span class="feature-icon">📈</span> Escalabilidade garantida</li>
+                    <li><span class="feature-icon">🛡️</span> SLA com alta disponibilidade</li>
+                </ul>
+            </div>
+            <div class="experience__visual business-visual">
+                <div class="building-container">
+                    <div class="building building-1">
+                        <div class="building-windows">
+                            <div class="window lit"></div>
+                            <div class="window"></div>
+                            <div class="window lit"></div>
+                            <div class="window lit"></div>
+                            <div class="window"></div>
+                            <div class="window lit"></div>
+                            <div class="window"></div>
+                            <div class="window lit"></div>
+                            <div class="window"></div>
+                        </div>
+                    </div>
+                    <div class="building building-2">
+                        <div class="building-windows">
+                            <div class="window"></div>
+                            <div class="window lit"></div>
+                            <div class="window lit"></div>
+                            <div class="window"></div>
+                            <div class="window lit"></div>
+                            <div class="window"></div>
+                            <div class="window lit"></div>
+                            <div class="window lit"></div>
+                            <div class="window"></div>
+                            <div class="window lit"></div>
+                            <div class="window"></div>
+                            <div class="window lit"></div>
+                        </div>
+                    </div>
+                    <div class="building building-3">
+                        <div class="building-windows">
+                            <div class="window lit"></div>
+                            <div class="window lit"></div>
+                            <div class="window"></div>
+                            <div class="window lit"></div>
+                            <div class="window"></div>
+                            <div class="window lit"></div>
+                        </div>
+                    </div>
+                    <div class="data-flow">
+                        <div class="data-particle"></div>
+                        <div class="data-particle"></div>
+                        <div class="data-particle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Planos -->
+    <section class="plans" id="plans">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Escolha seu plano</span>
+                <h2 class="section__title">Nossos <span class="text-gradient">Planos</span></h2>
+                <p class="section__description">Internet de alta velocidade com o melhor custo-benefício</p>
+            </div>
+            <div class="plans__grid">
+                <div class="plan-card">
+                    <div class="plan-card__header">
+                        <span class="plan-card__speed">400Mb</span>
+                    </div>
+                    <div class="plan-card__price">
+                        <span class="currency">R$</span>
+                        <span class="value">97</span>
+                        <span class="cents">,77</span>
+                    </div>
+                    <ul class="plan-card__features">
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> 200Mb Upload</li>
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> Wi-Fi 5 incluso</li>
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> App Sky+ Light</li>
+                        <li class="highlight">sua tv na fibra!</li>
+                    </ul>
+                    <a href="https://wa.me/5591989488052?text=Olá! Tenho interesse no plano de 400Mb"
+                        class="btn btn--outline">Contrate Agora</a>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-card__header">
+                        <span class="plan-card__speed">500Mb</span>
+                    </div>
+                    <div class="plan-card__price">
+                        <span class="currency">R$</span>
+                        <span class="value">107</span>
+                        <span class="cents">,77</span>
+                    </div>
+                    <ul class="plan-card__features">
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> 260Mb Upload</li>
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> Wi-Fi 6 incluso</li>
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> App Sky+ Light</li>
+                        <li class="highlight">sua tv na fibra!</li>
+                    </ul>
+                    <a href="https://wa.me/5591989488052?text=Olá! Tenho interesse no plano de 500Mb"
+                        class="btn btn--outline">Contrate Agora</a>
+                </div>
+
+                <div class="plan-card featured">
+                    <div class="plan-card__badge">Mais Popular</div>
+                    <div class="plan-card__header">
+                        <span class="plan-card__speed">600Mb</span>
+                    </div>
+                    <div class="plan-card__price">
+                        <span class="currency">R$</span>
+                        <span class="value">117</span>
+                        <span class="cents">,77</span>
+                    </div>
+                    <ul class="plan-card__features">
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> 280Mb Upload</li>
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> Wi-Fi 6 incluso</li>
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> App Sky+ Light</li>
+                        <li class="highlight">sua tv na fibra!</li>
+                    </ul>
+                    <a href="https://wa.me/5591989488052?text=Olá! Tenho interesse no plano de 600Mb"
+                        class="btn btn--primary">Contrate Agora</a>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-card__header">
+                        <span class="plan-card__speed">700Mb</span>
+                    </div>
+                    <div class="plan-card__price">
+                        <span class="currency">R$</span>
+                        <span class="value">127</span>
+                        <span class="cents">,77</span>
+                    </div>
+                    <ul class="plan-card__features">
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> 300Mb Upload</li>
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> Wi-Fi 6 incluso</li>
+                        <li><svg class="check-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" fill="currentColor" />
+                            </svg> App Sky+ Light</li>
+                        <li class="highlight">sua tv na fibra!</li>
+                    </ul>
+                    <a href="https://wa.me/5591989488052?text=Olá! Tenho interesse no plano de 700Mb"
+                        class="btn btn--outline">Contrate Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Fale Conosco</span>
+                <h2 class="section__title">Entre em <span class="text-gradient">Contato</span></h2>
+                <p class="section__description">Estamos prontos para te ajudar</p>
+            </div>
+            <div class="contact__grid">
+                <a href="https://wa.me/5591989488052" target="_blank" class="contact-card whatsapp-card">
+                    <div class="contact-card__icon">
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </div>
+                    <div class="contact-card__info">
+                        <h3>WhatsApp</h3>
+                        <p>(91) 98948-8052</p>
+                    </div>
+                    <span class="contact-card__arrow">→</span>
+                </a>
+
+                <a href="mailto:contato@i3neti.com.br" class="contact-card email-card">
+                    <div class="contact-card__icon">
+                        <svg class="email-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2" />
+                            <path d="M22 6L12 13 2 6" />
+                        </svg>
+                    </div>
+                    <div class="contact-card__info">
+                        <h3>E-mail</h3>
+                        <p>contato@i3neti.com.br</p>
+                    </div>
+                    <span class="contact-card__arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <img src="assets/logo2.png" alt="I3NET" class="footer__logo">
+                    <p class="footer__tagline">Conectando você ao futuro</p>
+                </div>
+                <div class="footer__links">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#plans">Planos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h4>Contato</h4>
+                    <p>📱 (91) 98948-8052</p>
+                    <p>📧 contato@i3neti.com.br</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>CNPJ: 21.980.015/0001-33</p>
+                <p>&copy; 2024 I3NET. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/5591989488052" target="_blank" class="whatsapp-float" aria-label="Contato via WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+        <span class="whatsapp-float__tooltip">Fale conosco!</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
