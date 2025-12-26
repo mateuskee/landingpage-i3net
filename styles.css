@@ -1733,6 +1733,10 @@ button {
         --font-size-3xl: 1.5rem;
     }
 
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+
     .nav__menu {
         position: fixed;
         top: 0;
